@@ -7,6 +7,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: 'CircularStd-Medium';
+  src: local('CircularStd-Medium'), url(./fonts/CircularStd-Medium.otf) format('opentype');
+}
+@font-face {
+  font-family: 'CircularStd-Book';
+  src: local('CircularStd-Book'), url(./fonts/CircularStd-Book.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'CircularStd-Bold';
+  src: local('CircularStd-Bold'), url(./fonts/CircularStd-Bold.otf) format('opentype');
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
